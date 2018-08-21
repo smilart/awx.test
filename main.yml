@@ -1,0 +1,5 @@
+---
+- hosts: coreos
+  tasks:
+    - name: test connection
+      ping: 
